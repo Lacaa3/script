@@ -1,0 +1,13 @@
+A szeletelés eredménye mindig egy új objektum.
+A ciklusváltozó mindig egy változó lesz a lista aktuális eleméről.
+Sorted: Egy beépített függvény. Meg kell adni egy listát. A sorted ezt a listát nem módosítja. Készít róla egy másolatot, és ezt a másolatot fogja rendezni. A végén return-el visszaadja a rendezett másolatot.
+Sort: Nem egy beépített függvény, hanem a lista osztálynak a saját metódusa. Ez a metódus a listát helyben rendezi (módosítja a listát). Nincs visszatérési értéke, nem ad vissza semmit.
+
+
+5. óra:
+nums = [1,2,3,4]
+squares [(kifejezés, mindig van értéke) for n in nums] -> squares [n * n for n in nums]
+assert utasítás: meglehet adni egy feltételt aminek teljesülnie kell a program azon pontján
+continue: vesszük a következő iterációs lépést, ami a continue után van a ciklusban az már nem fog lefutni.
+pass: üres utasítás, nem csinál semmit, de szintaktikailag helyes a program, pl ha függvényt később akarok megírni
+docstring: """ jel közé megy, dokumentációra szolgál, nem megjegyzés, olyan string ami a függvény részévé válik, le is tudjuk kérdezni(__doc__)
