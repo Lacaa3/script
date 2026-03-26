@@ -1,0 +1,4 @@
+Hello
+True 3.14
+Jani 30 éves.
+aabb
